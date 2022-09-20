@@ -101,16 +101,30 @@
         width: 90%;
         margin: 0 auto;
     }
-
-    .box1 ,.box2{
-        width: 100%;
+    
+    .box1, .box2{
+        flex-wrap: wrap;
     }
-
+    
+    .box2{
+        margin-top: 0px;
+    }
+    
     .title{
-        justify-content: center;
+        width: 49%;
+        margin-bottom: 10px;
+    }
+    .item{
+        width: 48.3%;
+    }
+}
+
+
+
+@media(max-width: 600px){
+    .options2 span{
+        image-rendering: ;
     }
 
 
 }
-
-@media(max-width: 600px){
