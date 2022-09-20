@@ -120,15 +120,44 @@
 }
 
 @media(max-width: 600px){
+    .wrap{
+        font-size: 20px;
+    }
+
+    .options2{
+
+    }
+
     .content h1{
         font-size: 30px;
     }
 
-    .footer{
+    .item{
+        width: 100%;
+        margin-bottom: 5%;
+        height: 50px;
+    }
+
+    .item img{   
+        width: 80px;
+    }
+
+    .course1,.item1{
+        flex-wrap: wrap;
+    }
+
+    .box1 ,.box2{
         flex-wrap: wrap;
     }
 
     .title{
         width: 100%;
+        margin-bottom: 5%;
+    }
 
+    .title h2 {
+        padding: 5%;
+    }
+
+    
 }
