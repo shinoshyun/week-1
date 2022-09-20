@@ -161,6 +161,7 @@
 
     .course1 {
         flex-wrap: wrap;
+        margin-bottom: 0px;
     }
 
     .box1 ,.box2{
@@ -175,8 +176,5 @@
     .title h2 {
         padding: 5%;
     }
-
-    .course1 {
-        margin-bottom: 0px;
-    }    
+   
 }
