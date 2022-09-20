@@ -143,8 +143,7 @@
 
     .navbar{
         display: block;
-        width: 100px;
-        height: 100px;
+        width: 30px;
     }
 
     .item{
@@ -179,7 +178,5 @@
 
     .course1 {
         margin-bottom: 0px;
-    }
-    
-    
+    }    
 }
