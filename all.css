@@ -93,3 +93,24 @@
 .title img{
     width: 100%;
 }
+
+
+
+@media(max-width: 1200px){
+    .wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box1 ,.box2{
+        width: 100%;
+    }
+
+    .title{
+        justify-content: center;
+    }
+
+
+}
+
+@media(max-width: 600px){
