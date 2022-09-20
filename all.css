@@ -3,6 +3,11 @@
     font-family:'Times New Roman';
     
 }
+
+.header{
+    width: 96%;
+}
+
 .navbar{
     display: none;
 }
@@ -106,7 +111,6 @@
 
 @media(max-width: 1200px){
     .wrap{
-        width: 90%;
         margin: 0 auto;
     }
     
@@ -124,6 +128,10 @@
     }
     .course1 {
         margin-bottom: 15px;
+    }
+
+    .footer{
+        width: 90%;
     }
 }
 
