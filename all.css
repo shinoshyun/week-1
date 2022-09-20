@@ -159,7 +159,7 @@
         width: 80px;
     }
 
-    .course1,.item1{
+    .course1 {
         flex-wrap: wrap;
     }
 
