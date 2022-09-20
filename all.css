@@ -69,7 +69,6 @@
     width: 80px;
 }
 
-
 .course2{
     max-width: 1200px;
     margin: 0 auto;
@@ -125,6 +124,7 @@
 }
 
 
+
 @media(max-width: 600px){
     .wrap{
         font-size: 20px;
@@ -132,6 +132,9 @@
 
     .content h1{
         font-size: 30px;
+    }
+    .menu ul{
+        display: none;
     }
 
     .item{
