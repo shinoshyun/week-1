@@ -3,6 +3,10 @@
     font-family:'Times New Roman';
     
 }
+.navbar{
+    display: none;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -137,6 +141,12 @@
         display: none;
     }
 
+    .navbar{
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+
     .item{
         width: 100%;
         margin-bottom: 5%;
@@ -170,4 +180,6 @@
     .course1 {
         margin-bottom: 0px;
     }
+    
+    
 }
