@@ -9,13 +9,19 @@
     margin: 10px auto;
 }
 
-.options2{
+.munu{
     justify-content: flex-end;
+}
+
+.menu ul{ 
+    display: flex;
     
 }
 
-.options2 span{
-    padding: 10px;
+.menu li a{
+    padding-left: 20px;
+    color: #000000;
+    text-decoration: none;
 }
 
 .content{
@@ -69,7 +75,6 @@
     margin: 0 auto;
 }
 
-
 .box1,.box2{
     display: flex;
     justify-content: space-between;
@@ -115,17 +120,14 @@
         margin-bottom: 10px;
     }
     .course1 {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 }
+
 
 @media(max-width: 600px){
     .wrap{
         font-size: 20px;
-    }
-
-    .options2{
-
     }
 
     .content h1{
@@ -135,7 +137,10 @@
     .item{
         width: 100%;
         margin-bottom: 5%;
-        height: 50px;
+    }
+
+    .item1{
+        height: 100%;
     }
 
     .item img{   
@@ -159,5 +164,7 @@
         padding: 5%;
     }
 
-    
+    .course1 {
+        margin-bottom: 0px;
+    }
 }
