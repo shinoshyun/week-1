@@ -1,34 +1,34 @@
-.wrap{
+.wrap {
     font-size: 20px;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
 }
 
-.navbar{
+.navbar {
     display: none;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     margin: 10px auto;
 }
 
-.munu{
+.munu {
     justify-content: flex-end;
 }
 
-.menu ul{ 
+.menu ul {
     display: flex;
-    
+
 }
 
-.menu li a{
+.menu li a {
     padding-left: 20px;
     color: #000000;
     text-decoration: none;
 }
 
-.content{
+.content {
     display: flex;
     height: 300px;
     background: #a2caff;
@@ -37,129 +37,133 @@
     align-items: center;
 }
 
-.content h1{
+.content h1 {
     font-size: 40px;
 }
 
-.footer{
+.footer {
     margin: 0 auto;
     max-width: 1200px;
 }
 
-.course1{
+.course1 {
     margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
 }
-.item{
+
+.item {
     width: 49.3%;
     height: 50px;
 }
 
-.item1{
+.item1 {
     display: flex;
     height: 50px;
     background: #a2caff;
     width: 100%;
-    text-align: center;    
+    text-align: center;
 }
 
-.item1 h3{
+.item1 h3 {
     margin: auto 0;
     padding-left: 10px;
 }
 
-.item img{   
+.item img {
     width: 80px;
 }
 
-.course2{
+.course2 {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.box1,.box2{
+.box1,
+.box2 {
     display: flex;
     justify-content: space-between;
 }
 
-.box2{
+.box2 {
     margin-top: 15px;
 }
 
-.title{
+.title {
     width: 24%;
     text-align: center;
     justify-content: center;
     background: #a2caff;
 }
 
-.title h2{
+.title h2 {
     padding: 10%;
 }
 
-.title img{
+.title img {
     width: 100%;
 }
 
 
 
-@media(max-width: 1200px){
-    .wrap{
+@media(max-width: 1200px) {
+    .wrap {
         margin: 0 auto;
     }
-    
-    .box1, .box2{
+
+    .box1,
+    .box2 {
         flex-wrap: wrap;
     }
-    
-    .box2{
+
+    .box2 {
         margin-top: 0px;
     }
-    
-    .title{
+
+    .title {
         width: 49.3%;
         margin-bottom: 10px;
     }
+
     .course1 {
         margin-bottom: 15px;
     }
 
-    .footer{
+    .footer {
         width: 90%;
     }
 }
 
 
 
-@media(max-width: 600px){
-    .wrap{
+@media(max-width: 600px) {
+    .wrap {
         font-size: 20px;
     }
 
-    .content h1{
+    .content h1 {
         font-size: 30px;
     }
-    
-    .menu ul{
+
+    .menu ul {
         display: none;
     }
 
-    .navbar{
+    .navbar {
         display: block;
         width: 30px;
     }
 
-    .item{
+    .item {
         width: 100%;
         margin-bottom: 5%;
     }
 
-    .item1{
+    .item1 {
         height: 100%;
     }
 
-    .item img{   
+    .item img {
         width: 80px;
     }
 
@@ -168,11 +172,12 @@
         margin-bottom: 0px;
     }
 
-    .box1 ,.box2{
+    .box1,
+    .box2 {
         flex-wrap: wrap;
     }
 
-    .title{
+    .title {
         width: 100%;
         margin-bottom: 5%;
     }
@@ -180,5 +185,5 @@
     .title h2 {
         padding: 5%;
     }
-   
+
 }
